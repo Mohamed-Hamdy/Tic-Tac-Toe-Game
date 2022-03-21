@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="614.0" style="-fx-background-color: #17A89E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoegame.Controllers.P2PContoller">
+   <children>
+      <Button layoutX="92.0" layoutY="439.0" onAction="#BackButton" prefHeight="50.0" prefWidth="206.0" style="-fx-background-color: #f4511e;" stylesheets="@../css/buttons.css" text="Back" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <styleClass>
+            <String fx:value="button" />
+            <String fx:value="button" />
+         </styleClass>
+         
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button layoutX="339.0" layoutY="439.0" onAction="#StartButton" prefHeight="50.0" prefWidth="206.0" style="-fx-background-color: #f4511e;" stylesheets="@../css/buttons.css" text="Start" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <styleClass>
+            <String fx:value="button" />
+            <String fx:value="button" />
+         </styleClass>
+         
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Text fx:id="winnerText" fill="WHITE" layoutX="22.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic-Tac-Toe" textAlignment="CENTER" wrappingWidth="570.9443359375">
+         <font>
+            <Font name="Arial" size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="p1button" disable="true" layoutX="152.0" layoutY="230.0" onAction="#player1win" prefHeight="50.0" prefWidth="310.0" style="-fx-background-color: #f4511e;" stylesheets="@../css/buttons.css" text="Open Connetion" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <styleClass>
+            <String fx:value="button" />
+            <String fx:value="button" />
+         </styleClass>
+        
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
