@@ -42,6 +42,8 @@ Tic Tac Toe Game is application that have three type of playing in one applicati
   | Third ScreenShot it contain the three images<br> the two upper images is two windows player1 window and players2 <br>window and the lower image is the server request <br>after the two players is connected |![Screenshot (1156)](https://github.com/Mohamed-Hamdy/Tic-Tac-Toe-Game/blob/master/images/Online%20Mode%20Screen%203.png) |
 
 <h5>You can view all images sreenshots from  <a href="https://github.com/Mohamed-Hamdy/Tic-Tac-Toe-Game/tree/master/images">this link</a></h5> 
-# How to run
+
+# How run Project
+
 <p>first using IDE you will run the project and in the online case only after you click on the open connection button the server will wait the players to connect to one the players window you will run the Client.java as a file but you will run this file two times to open the player 1 and player 2 connection </p>
 <br>
